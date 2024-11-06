@@ -1,4 +1,4 @@
-package com.example.Demo1;
+package com.example.Demo1.Controller;
 
 import com.example.Demo1.Services.JobService;
 import com.example.Demo1.model.JobPost;
@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
